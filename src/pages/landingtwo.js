@@ -2,26 +2,26 @@ import React from 'react'
 import { Link } from 'gatsby'
 import Helmet from 'react-helmet'
 import Layout from '../components/layout'
-import BannerLanding from '../components/BannerLanding'
+import BannerLandingJapan from '../components/BannerLandingJapan'
 
 import pic08 from '../assets/images/pic08.jpg'
 import pic09 from '../assets/images/pic09.jpg'
 import pic10 from '../assets/images/pic10.jpg'
 
-const Landing = (props) => (
+const LandingTwo = (props) => (
     <Layout>
         <Helmet>
-            <title>Travel</title>
+            <title>Tokyo</title>
             <meta name="description" content="Landing Page" />
         </Helmet>
 
-        <BannerLanding />
+        <BannerLandingJapan />
 
         <div id="main">
             <section id="one">
                 <div className="inner">
                     <header className="major">
-                        <h2>HEY HI HELLO</h2>
+                        <h2>Japan only</h2>
                     </header>
                     <p>THIS IS A P</p>
                 </div>
@@ -81,4 +81,4 @@ const Landing = (props) => (
     </Layout>
 )
 
-export default Landing
+export default LandingTwo
