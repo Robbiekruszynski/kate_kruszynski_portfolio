@@ -32,44 +32,44 @@ class HomeIndex extends React.Component {
                         <article style={{backgroundImage: `url(${pic01})`}}>
                             <header className="major">
                                 <h3>Tokyo</h3>
-                                <p>Ipsum dolor sit amet</p>
+                                <p>Japan</p>
                             </header>
-                            <Link to="/landingtwo" className="link primary"></Link>
+                            <Link to="/landingJapan" className="link primary"></Link>
                         </article>
                         <article style={{backgroundImage: `url(${pic02})`}}>
                             <header className="major">
                                 <h3>Reykjavik</h3>
-                                <p>feugiat amet tempus</p>
+                                <p>Iceland</p>
                             </header>
                             <Link to="/landing" className="link primary"></Link>
                         </article>
                         <article style={{backgroundImage: `url(${pic03})`}}>
                             <header className="major">
                                 <h3>Paris</h3>
-                                <p>Lorem etiam nullam</p>
+                                <p>France</p>
                             </header>
                             <Link to="/landing" className="link primary"></Link>
                         </article>
                         <article style={{backgroundImage: `url(${pic04})`}}>
                             <header className="major">
                                 <h3>Hong Kong</h3>
-                                <p>Nisl sed aliquam</p>
+                                <p>China</p>
                             </header>
                             <Link to="/landing" className="link primary"></Link>
                         </article>
                         <article style={{backgroundImage: `url(${pic05})`}}>
                             <header className="major">
                                 <h3>Buenos Aires</h3>
-                                <p>Ipsum dolor sit amet</p>
+                                <p>Argentina</p>
                             </header>
                             <Link to="/landing" className="link primary"></Link>
                         </article>
                         <article style={{backgroundImage: `url(${pic06})`}}>
                             <header className="major">
                                 <h3>Mexico City</h3>
-                                <p>Feugiat amet tempus</p>
+                                <p>Mexico</p>
                             </header>
-                            <Link to="/landing" className="link primary"></Link>
+                            <Link to="/landingMexicoCity" className="link primary"></Link>
                         </article>
                     </section>
                     <section id="two">

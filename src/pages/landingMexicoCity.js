@@ -2,26 +2,26 @@ import React from 'react'
 import { Link } from 'gatsby'
 import Helmet from 'react-helmet'
 import Layout from '../components/layout'
-import BannerLandingJapan from '../components/BannerLandingJapan'
+import BannerLandingMex from '../components/BannerLandingMexicoCity'
 
 import pic08 from '../assets/images/pic08.jpg'
 import pic09 from '../assets/images/pic09.jpg'
 import pic10 from '../assets/images/pic10.jpg'
 
-const LandingTwo = (props) => (
+const LandingMexC = (props) => (
     <Layout>
         <Helmet>
-            <title>Tokyo</title>
+            <title>Mexico City</title>
             <meta name="description" content="Landing Page" />
         </Helmet>
 
-        <BannerLandingJapan />
+        <BannerLandingMex />
 
         <div id="main">
             <section id="one">
                 <div className="inner">
                     <header className="major">
-                        <h2>Japan only</h2>
+                        <h2>Mexico</h2>
                     </header>
                     <p>THIS IS A P</p>
                 </div>
@@ -34,9 +34,9 @@ const LandingTwo = (props) => (
                     <div className="content">
                         <div className="inner">
                             <header className="major">
-                                <h3>Orci maecenas</h3>
+                                <h3>Culture</h3>
                             </header>
-                            <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.</p>
+                            <p>Blip on culture experience, expecations.</p>
                             <ul className="actions">
                                 <li><Link to="/generic" className="button">Learn more</Link></li>
                             </ul>
@@ -50,9 +50,9 @@ const LandingTwo = (props) => (
                     <div className="content">
                         <div className="inner">
                             <header className="major">
-                                <h3>Rhoncus magna</h3>
+                                <h3>Cuisine</h3>
                             </header>
-                            <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.</p>
+                            <p>Short blip about food</p>
                             <ul className="actions">
                                 <li><Link to="/generic" className="button">Learn more</Link></li>
                             </ul>
@@ -66,9 +66,9 @@ const LandingTwo = (props) => (
                     <div className="content">
                         <div className="inner">
                             <header className="major">
-                                <h3>This is a title </h3>
+                                <h3>X</h3>
                             </header>
-                            <p>WHAT IS GOOD!?</p>
+                            <p>Blip on X</p>
                             <ul className="actions">
                                 <li><Link to="/generic" className="button">Learn more</Link></li>
                             </ul>
@@ -81,4 +81,4 @@ const LandingTwo = (props) => (
     </Layout>
 )
 
-export default LandingTwo
+export default LandingMexC
