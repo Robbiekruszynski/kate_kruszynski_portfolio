@@ -44,7 +44,7 @@ const LandingTwo = (props) => (
                     </div>
                 </section>
                 <section>
-                    <Link to="/generic" className="image">
+                    <Link to="/japanCuisine" className="image">
                         <img src={pic09} alt="" />
                     </Link>
                     <div className="content">
