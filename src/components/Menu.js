@@ -11,11 +11,11 @@ const Menu = (props) => (
                 <li><Link onClick={props.onToggleMenu} to="/landingJapan">Hong Kong</Link></li>
                 <li><Link onClick={props.onToggleMenu} to="/landingJapan">Japan</Link></li>
                 <li><Link onClick={props.onToggleMenu} to="/landingMexicoCity">Mexico City</Link></li>
-                <li><Link onClick={props.onToggleMenu} to="/landingJapan">Paris</Link></li>
+                <li><Link onClick={props.onToggleMenu} to="/landingParis">Paris</Link></li>
                 <li><Link onClick={props.onToggleMenu} to="/landingJapan">Reykjavik</Link></li>
                 <li><Link onClick={props.onToggleMenu} to="/elements">Planning your trip</Link></li>
             </ul>
-    
+
         </div>
         <a className="close" onClick={props.onToggleMenu} href="javascript:;">Close</a>
     </nav>

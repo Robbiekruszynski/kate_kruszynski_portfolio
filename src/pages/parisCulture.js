@@ -7,7 +7,7 @@ import pic11 from '../assets/images/pic11.jpg'
 const ParisCulture = (props) => (
     <Layout>
         <Helmet>
-            <title>Culture in Japan</title>
+            <title>Culture in Paris</title>
             <meta name="description" content="Generic Page" />
         </Helmet>
 

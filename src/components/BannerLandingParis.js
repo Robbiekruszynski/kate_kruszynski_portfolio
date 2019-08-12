@@ -4,7 +4,7 @@ const BannerLandingParis= (props) => (
     <section id="banner" className="style2">
         <div className="inner">
             <header className="major">
-                <h1>Mexico City</h1>
+                <h1>Paris</h1>
             </header>
             <div className="content">
                 <p>Lorem ipsum dolor sit amet nullam consequat<br />

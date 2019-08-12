@@ -7,7 +7,7 @@ import pic11 from '../assets/images/pic11.jpg'
 const ParisCuisine = (props) => (
     <Layout>
         <Helmet>
-            <title>Cuisine in Japan</title>
+            <title>Cuisine in Paris</title>
             <meta name="description" content="Generic Page" />
         </Helmet>
 

@@ -11,7 +11,7 @@ import pic10 from '../assets/images/pic10.jpg'
 const LandingParis = (props) => (
     <Layout>
         <Helmet>
-            <title>Tokyo</title>
+            <title>Paris</title>
             <meta name="description" content="Landing Page" />
         </Helmet>
 
@@ -66,11 +66,11 @@ const LandingParis = (props) => (
                     <div className="content">
                         <div className="inner">
                             <header className="major">
-                                <h3>X</h3>
+                                <h3>Jounrey</h3>
                             </header>
-                            <p>Blip on X</p>
+                            <p>Blip on itinerary</p>
                             <ul className="actions">
-                                <li><Link to="/generic" className="button">Learn more</Link></li>
+                                <li><Link to="/parisJourney" className="button">Learn more</Link></li>
                             </ul>
                         </div>
                     </div>

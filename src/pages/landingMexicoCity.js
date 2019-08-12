@@ -5,7 +5,7 @@ import Layout from '../components/layout'
 import BannerLandingMex from '../components/BannerLandingMexicoCity'
 
 import pic08 from '../assets/images/pic08.jpg'
-import pic09 from '../assets/images/pic09.jpg'
+import pic09 from '../assets/images/pujolHome.jpg'
 import pic10 from '../assets/images/pic10.jpg'
 
 const LandingMexC = (props) => (
@@ -44,7 +44,7 @@ const LandingMexC = (props) => (
                     </div>
                 </section>
                 <section>
-                    <Link to="/generic" className="image">
+                    <Link to="/mexicoCityCuisine" className="image">
                         <img src={pic09} alt="" />
                     </Link>
                     <div className="content">
@@ -54,7 +54,7 @@ const LandingMexC = (props) => (
                             </header>
                             <p>Short blip about food</p>
                             <ul className="actions">
-                                <li><Link to="/generic" className="button">Learn more</Link></li>
+                                <li><Link to="/mexicoCityCuisine" className="button">Learn more</Link></li>
                             </ul>
                         </div>
                     </div>
